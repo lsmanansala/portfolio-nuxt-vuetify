@@ -6,7 +6,7 @@
       <v-btn @click="scrollIntoView('home')">Home</v-btn>
       <v-btn @click="scrollIntoView('about')">About Me</v-btn>
       <v-btn @click="scrollIntoView('work')">Work</v-btn>
-      <v-btn href="../assets/LudwigSeanManansalaResume.pdf" download color="success"
+      <v-btn :href="resume" download color="success"
         >Resume</v-btn
       >
     </v-app-bar>
@@ -14,6 +14,7 @@
 </template>
 <script setup lang="ts">
 import logo from "~/assets/images/lsm.png";
+import resume from "~/assets/LudwigSeanManansalaResume.pdf"
 
 const scrollIntoView = (id: string) => {
   const el = document.getElementById(id);
