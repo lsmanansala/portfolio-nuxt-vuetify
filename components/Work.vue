@@ -1,17 +1,20 @@
 <script setup lang="ts">
-import ClientHistoryService from '~~/services/client/ClientHistoryService';
-import { History } from '~~/interfaces/history.interface';
+import workHistoryJson from '~/assets/data/history.json'
+// import ClientHistoryService from '~~/services/client/ClientHistoryService';
+// import { History } from '~~/interfaces/history.interface';
 
-const workHistory = ref<History[]>([])
+// const workHistory = ref<History[]>([])
 
-const fetchWorkHistory = async() => {
-  const response = await new ClientHistoryService().getList()
-  workHistory.value = response.data
-}
+// const fetchWorkHistory = async() => {
+//   const response = await new ClientHistoryService().getList()
+//   workHistory.value = response.data
+// }
 
-onMounted(async() => {
-  fetchWorkHistory()
-})
+// onMounted(async() => {
+//   fetchWorkHistory()
+// })
+
+const workHistory = ref(workHistoryJson)
 </script>
 
 <template>
