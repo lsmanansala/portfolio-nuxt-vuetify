@@ -1,5 +1,6 @@
 <script setup lang="ts">
   import portrait from '~/assets/images/portrait.png'
+  import { useDisplay } from 'vuetify'
   const technologies = ref([
     'VueJS 3 with TypeScript',
     'NuxtJS 3 with TypeScript',
@@ -13,7 +14,9 @@
     'Prisma',
     'Docker',
     'PostgreSQL',
+    
   ])
+  const { xs, mdAndUp } = useDisplay()
 </script>
 
 <template>
@@ -54,8 +57,8 @@
                 </div>
               </v-card-text>
             </v-col>
-            <v-divider vertical color="success"></v-divider>
-            <v-col align-self="center" class="mx-8">
+            <v-divider  v-if="mdAndUp" vertical color="success"></v-divider>
+            <v-col  v-if="mdAndUp" align-self="center" class="mx-8">
               <v-img :src="portrait"></v-img>
             </v-col>
           </v-row>
