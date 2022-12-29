@@ -1,4 +1,4 @@
-import projects from '~/assets/projects.json'
+import projects from '~/assets/data/projects.json'
 import { Project } from '~~/interfaces/project.interface';
 
 export default class ProjectService {

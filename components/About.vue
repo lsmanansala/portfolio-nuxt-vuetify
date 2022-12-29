@@ -1,5 +1,5 @@
 <script setup lang="ts">
-  import portrait from '~/assets/portrait.png'
+  import portrait from '~/assets/images/portrait.png'
   const technologies = ref([
     'VueJS 3 with TypeScript',
     'NuxtJS 3 with TypeScript',
@@ -13,7 +13,6 @@
     'Prisma',
     'Docker',
     'PostgreSQL',
-
   ])
 </script>
 

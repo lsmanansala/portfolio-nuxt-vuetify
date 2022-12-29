@@ -1,4 +1,4 @@
-import history from "~/assets/history.json";
+import history from "~/assets/data/history.json";
 import { History } from "~~/interfaces/history.interface";
 
 export default class HistoryService {

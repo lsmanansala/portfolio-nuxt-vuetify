@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import portrait from "~/assets/portrait.png";
-import software from "~/assets/software.jpeg";
+import portrait from "~/assets/images/portrait.png";
+import software from "~/assets/images/software.jpeg";
 </script>
 
 <template>
