@@ -1,0 +1,37 @@
+[
+  {
+    "name": "ETL Monitoring Application",
+    "url": null,
+    "company": "Inriver PH",
+    "code": "etl",
+    "description": "An app for monitoring the ETL process. Allows the user to trigger ETL requests and monitor the status of each run."
+  },
+  {
+    "name": "Artforge",
+    "url": "https://www.artforge.io",
+    "company": "Coinonia Labs",
+    "code": "artforge",
+    "description": "Lead a team of 3 developers to build Artforge (artforge.io), an NFT platform that allows artists and collectors to create and mint NFTs, buy and sell NFTs in a robust marketplace."
+  },
+  {
+    "name": "PixelPotus",
+    "url": "https://www.pixelpotus.com",
+    "company": "Coinonia Labs",
+    "code": "potus",
+    "description": "a digital NFT collectable competition built on Tezos Blockchain."
+  },
+  {
+    "name": "PixelPower",
+    "url": "https://www.pixelpower.xyz",
+    "company": "Coinonia Labs",
+    "code": "power",
+    "description": "Pixel Power is a digital collectible NFT Competition built on Tezos Blockchain."
+  },
+  {
+    "name": "GiveOnlineToday",
+    "url": "https://www.giveonlinetoday.com",
+    "company": "Traxion Tech",
+    "code": "got",
+    "description": "Crowd Sourcing Application for different local churches in the Philippines."
+  }
+]

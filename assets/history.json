@@ -1,0 +1,55 @@
+[
+  {
+    "position": "Junior Software Developer",
+    "date": "Feb 2019 - Oct 2020",
+    "company": "Traxion Tech",
+    "responsibilities": [
+      "Built RESTful APIs that served data to the JavaScript front-end using Django and Django REST Framework.",
+      "Worked with product managers to analyze user needs to determine technical requirements.",
+      "Built an internal tool that manages the fees that the company is earning.",
+      "Built an internal product for crowd sourcing for different local churches in the Philippines."
+    ]
+  },
+  {
+    "position": "Software Developer",
+    "date": "Oct 2020 - Jan 2022",
+    "company": "Detail Online",
+    "responsibilities": [
+      "Built a feature for an internal tool that automatically organizes and processes the specifications of data that needs to be saved in the system.",
+      "Built and maintained a new CMS tool that manages clients for the company. Handles all information that are needed for the client to use the main product.",
+      "Maintain internal tools that allow users to create and update and publish data.",
+      "Maintain the main product that the company is selling. Enhance the existing product by adding new features allowing users to efficiently use the data at hand"
+    ]
+  },
+  {
+    "position": "Software Developer",
+    "date": "Sept 2021 - Apr 2022",
+    "company": "Coinonia Labs",
+    "responsibilities": [
+      "Lead a team of 3 developers to build Artforge (artforge.io), an NFT platform that allows artists and collectors to create and mint NFTs, buy and sell NFTs in a robust marketplace.",
+      "Maintained and enhanced current features for PixelPotus(pixelpotus.com), a digital NFT collectable competition built on Tezos Blockchain.",
+      "Built PixelPower (pixelpower.xyz) front end and user interface. Pixel Power is a digital collectible NFT Competition built on Tezos Blockchain."
+    ]
+  },
+  {
+    "position": "Software Developer",
+    "date": "June 2022 - Nov 2022",
+    "company": "Kave",
+    "responsibilities": [
+      "Lead software developer, trains new developers to use ReactJS and Ant Design",
+      "Built web3 gateway that allows users to learn about cryptocurrencies and their applications",
+      "Built an internal tool that manages content for web3 gateway.",
+      "Built kave academy, a software that allows users to learn and earn at the same time"
+    ]
+  },
+  {
+    "position": "Software Developer",
+    "date": "Jan 2022 - Present",
+    "company": "Inriver PH",
+    "responsibilities": [
+      "Part of internal RND team that uses new technology and applying said technologies to current projects.",
+      "Built an internal tool that transitioned the manual process of updating and processing the current data.",
+      "Maintain and create new features for existing systems and applying specifications required by Project Managers."
+    ]
+  }
+]

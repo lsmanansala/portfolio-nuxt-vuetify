@@ -1,0 +1,17 @@
+  .p-section {
+    height: 100vh;
+    padding: 0.75rem;
+  }
+
+  .p-section-work {
+    height: 100%;
+    padding: 0.75rem;
+  }
+
+  .p-text-title {
+    font-size: 50px;
+  }
+  
+  .p-text-title-sm {
+    font-size: 40px;
+  }
