@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import portrait from "~/assets/images/portrait.png";
+import lsm from "~/assets/images/lsm.png";
 import software from "~/assets/images/software.jpeg";
 </script>
 
@@ -7,7 +7,7 @@ import software from "~/assets/images/software.jpeg";
   <div class="p-section">
     <v-row justify="center" align="center" class="mt-16">
       <v-col lg="8">
-        <v-img class="img bounce-top" max-height="400" :src="software"></v-img>
+        <v-img class="img bounce-top" max-height="400" :src="lsm"></v-img>
       </v-col>
     </v-row>
     <v-row justify="center" align="center" class="mt-10">
