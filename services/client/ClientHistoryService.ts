@@ -3,8 +3,8 @@ import ApiService from "../common/ApiService";
 export default class ClientHistoryService extends ApiService {
   constructor () {
     super({
-      // baseURL: "http://localhost:3000/api/",
-      baseURL: "http://lsfm.xyz/api/"
+      baseURL: "http://localhost:3000/api/",
+      // baseURL: "http://lsfm.xyz/api/"
     }); 
   }
 
