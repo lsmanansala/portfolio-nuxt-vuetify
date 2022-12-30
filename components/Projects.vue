@@ -1,20 +1,6 @@
 <script setup lang="ts">
-import projectsJson from '~/assets/data/projects.json'
-// import ClientProjectService from '~~/services/client/ClientProjectService';
-// import { Project } from '~~/interfaces/project.interface';
-
-// const projects = ref<Project[]>([])
-
-// const fetchProjects = async () => {
-//   const response = await new ClientProjectService().getList()
-//   projects.value = response.data
-// }
-
-// onMounted(async () => {
-//   fetchProjects()
-// })
-
-const projects = ref(projectsJson)
+import projectsJson from "~/assets/data/projects.json";
+const projects = ref(projectsJson);
 </script>
 
 <template>
