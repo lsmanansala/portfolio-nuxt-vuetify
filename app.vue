@@ -1,6 +1,5 @@
 <template>
   <v-app>
-    <NuxtLoadingIndicator><Loading v-if="loading" /></NuxtLoadingIndicator>
     <NuxtLayout :name="layout"></NuxtLayout>
     <v-main class="mt-4">
       <NuxtPage />

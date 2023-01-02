@@ -30,7 +30,7 @@ const getImage = (code: string) => {
 
 <template>
   <div>
-    <v-card color="#112240" class="mx-auto" max-width="400" :href="project.url ? project.url : ''" target="_blank">
+    <v-card color="#112240" class="mx-auto" max-width="500" :href="project.url ? project.url : ''" target="_blank">
       <v-img
         class="align-end text-white"
         height="200"

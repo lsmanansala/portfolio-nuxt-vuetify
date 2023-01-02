@@ -11,10 +11,12 @@
     </section>
     <section>
       <v-footer color="#0a1930">
-        <v-row justify="center" no-gutters>
-          <div class="text-overline"> &copy; 2022 • Ludwig Sean Manansala • manansalaludwig@gmail.com </div>
-        </v-row></v-footer
-      >
+        <v-row justify="center">
+          <div class="text-overline">
+            &copy; 2022 • Ludwig Sean Manansala • manansalaludwig@gmail.com
+          </div>
+        </v-row>
+      </v-footer>
     </section>
   </div>
 </template>
