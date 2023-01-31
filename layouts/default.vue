@@ -32,7 +32,7 @@
 </template>
 <script setup lang="ts">
 import logo from "~/assets/images/lsm.png";
-import resume from "~/assets/LudwigSeanManansalaResume.pdf";
+import resume from "~/assets/LudwigManansalaResume2023.pdf";
 import { useDisplay } from "vuetify";
 
 const { mdAndDown, mdAndUp } = useDisplay();
